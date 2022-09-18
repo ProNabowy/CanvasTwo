@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Two</title>
+    <link rel="stylesheet" href="./css/nabowy.css">
+    <style>
+        .btn {
+            background-color: red;
+            color: white;
+            font-size: 30px;
+            padding: 5px 20px;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            border-radius: 15px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+        .darw,
+        .stopDarw {
+            background-color: red;
+            padding: 3px 10px;
+            border-radius: 5px;
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            cursor: pointer;
+        }
+        .stopDarw {
+            top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <button class="btn">Click Here To Clear Canvas Darwing</button>
+    <button class="darw">Click To Darw</button>
+    <button class="stopDarw">Stop Darwing</button>
+    <script src="canvas.js"></script>
+</body>
+</html>
